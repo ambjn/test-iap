@@ -110,8 +110,8 @@ export function PurchasesProvider({ children }: { children: React.ReactNode }) {
   };
 
   return (
-    <PurchasesContext.Provider value= { value } >
-    { children }
+    <PurchasesContext.Provider value={value}>
+      {children}
     </PurchasesContext.Provider>
   );
 }
